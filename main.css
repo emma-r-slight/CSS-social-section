@@ -82,3 +82,52 @@ h1 {
 .rate-card--text {
   margin-left: 2rem;
 }
+
+#cards {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+.comment-card {
+  border-radius: 10px;
+  background-color: var(--primary-dark);
+  color: var(--neutral-light);
+  margin: 1rem auto;
+  padding: 2.1rem 2rem;
+  transition: transform 1s ease-in-out;
+  flex-basis: 30%;
+  min-height: 200px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  margin-left: 1.5rem;
+}
+
+.card-subTitle {
+  color: var(--primary-light);
+  margin-top: 0.5rem;
+}
+.card-body {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.card-image {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.comment-card:nth-child(2) {
+  transform: translateY(1.5rem);
+}
+
+.comment-card:last-child {
+  transform: translateY(3rem);
+}
