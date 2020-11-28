@@ -5,3 +5,26 @@
   --neutral-light: hsl(300, 24%, 96%);
   --neutral-white: hsl(0, 0%, 100%);
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
